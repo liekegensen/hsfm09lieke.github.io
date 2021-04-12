@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Gelderland - Leafletkaart</title>  
+      <link rel="stylesheet" type="text/css" href="main.css"/>
+
+    
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
+
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+ crossorigin=""></script> 
+
+ <script src="stadsgezichten_proj.js"></script>
+
+</head>
+ <body>
+  
+	<!-- Navbar -->
+  <ul>
+    <li><a href="mapbox.html">Mapbox</a></li>
+    <li><a class="active" href="leaflet.html">Leaflet</a></li>
+    <li><a href="ESRI.html">ESRI</a></li>
+    <li><a href="datavisualisaties.html">Datavisualisaties</a></li>
+    <li><a href="api.html">ArcGIS API</a></li>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+    <!-- Navbar -->
+
+    <H1>Leafletkaart</H1>
+
+    <div id="mapid"></div>
+    <script src="stadsgezichten_proj.js"></script>
+    <script src="leaflet.js"></script>
+
+    <div class="paragraaf">
+      <p>Op deze kaart zijn alle beschermde stadsgezichten die er zijn in heel Gelderland te zien. Als u er op klikt verschijnt er aanvullende informatie zoals de naam en de locatie van het stadsgezicht.
+      </p>
+      </div>
+
+    <div class="footer">
+      <div class="algemeen">Lieke Gensen 3GMD Aeres Hogeschool</div>
+     </div>
+     
+  </body>
